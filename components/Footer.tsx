@@ -1,3 +1,7 @@
 export default function Footer() {
-    return <footer className='bg-blue-700 text-white flex justify-center items-center font-bold text-3xl py-5 absolute bottom-0 h-6 w-screen'>This is the footer</footer>
+  return (
+    <footer className="absolute bottom-0 flex h-6 w-screen items-center justify-center bg-gradient-to-r from-cyan-500 to-blue-500 py-5 text-3xl font-bold text-white">
+      This is the footer
+    </footer>
+  )
 }
