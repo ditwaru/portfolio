@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav
       className={`flex flex-col bg-gradient-to-r from-cyan-500 to-blue-500 text-white md:flex-row ${
         !hamburgerOpen && 'items-center justify-between'
-      } fixed top-0 h-16 w-screen py-4 px-5 text-xl font-bold font-montserrat transition-all duration-300 z-10 ${
+      } fixed top-0 h-16 w-full py-4 px-5 text-xl font-bold font-montserrat transition-all duration-300 z-10 ${
         hamburgerOpen && 'h-40'
       }`}
     >

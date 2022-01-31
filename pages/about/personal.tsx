@@ -6,12 +6,16 @@ import { faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons'
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 import { dadJokes, randomNumberGenerator } from '../../utils/dadJokes'
+import Head from 'next/head'
 
 export default function Personal() {
   const [joke, setJoke] = useState(dadJokes[randomNumberGenerator()])
 
   return (
     <div className="w-3/4 max-w-4xl my-20">
+      <Head>
+        <title>About me - personal</title>
+      </Head>
       <div className="flex justify-between">
         <Link href="/about">
           <a>

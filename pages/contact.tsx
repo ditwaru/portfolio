@@ -3,6 +3,7 @@ import { useForm } from '@formspree/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 import ContentContainer from '../components/ContentContainer'
+import Head from 'next/head';
 
 
 export default function Contact() {
@@ -20,6 +21,9 @@ export default function Contact() {
 
   return (
     <div className='flex flex-col items-center justify-center'>
+      <Head>
+        <title>Contact me</title>
+      </Head>
       {formSubmitted.succeeded && <p className='text-center bg-green-50 border p-4 rounded-lg'>
         <FontAwesomeIcon className='text-green-400' icon={faCheckCircle} /> Your comment was sent!</p>}
       <ContentContainer>

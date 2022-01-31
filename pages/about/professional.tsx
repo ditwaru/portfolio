@@ -3,6 +3,7 @@ import {
   faLongArrowAltRight,
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import ContentContainer from '../../components/ContentContainer'
@@ -10,6 +11,9 @@ import ContentContainer from '../../components/ContentContainer'
 export default function Professional() {
   return (
     <div className="w-3/4 max-w-4xl py-20">
+      <Head>
+        <title>About me - professional</title>
+      </Head>
       <div className="flex justify-between pb-12">
         <Link href="/about">
           <a>
