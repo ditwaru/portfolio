@@ -16,9 +16,21 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap"
+            as="font"
+            crossOrigin=""
+          />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <body className='font-openSans'>
+        <body className="font-openSans">
           <Main />
           <NextScript />
         </body>
