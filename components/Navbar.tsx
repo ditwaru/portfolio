@@ -8,12 +8,12 @@ export default function Navbar() {
     <nav
       className={`flex flex-col bg-gradient-to-r from-cyan-500 to-blue-500 text-white md:flex-row ${
         !hamburgerOpen && 'items-center justify-between'
-      } fixed top-0 h-16 w-screen py-4 px-5 text-xl font-bold transition-all duration-300 ${
+      } fixed top-0 h-16 w-screen py-4 px-5 text-xl font-bold font-montserrat transition-all duration-300 z-10 ${
         hamburgerOpen && 'h-40'
       }`}
     >
       <div className="flex h-full w-full items-center justify-between">
-        <button
+        <button className='md:hidden'
           onClick={() => {
             setHamburgerOpen(!hamburgerOpen)
           }}
@@ -36,8 +36,8 @@ export default function Navbar() {
       </div>
       <ul
         className={`transition-all duration-300 ${
-          !hamburgerOpen && 'hidden pt-0 opacity-0'
-        } pt-2`}
+          !hamburgerOpen && 'hidden pt-0'
+        } pt-2 md:flex md:pt-0 md:space-x-5`}
       >
         <li
           className="text-white"

@@ -3,6 +3,7 @@ import {
   faLongArrowAltRight,
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
 import Link from 'next/link'
 import ContentContainer from '../../components/ContentContainer'
 
@@ -23,22 +24,25 @@ export default function Professional() {
       </div>
       <ContentContainer>
         <section>
-          <h1 className="mb-3 text-2xl font-semibold">Salutations!</h1>
+          <h1 className="mb-3 text-2xl font-semibold font-montserrat">Salutations!</h1>
+          <div className='flex justify-center my-10'>
+            <Image src='/professional.webp' height={1237/3} width={828/3} alt='professional shot' className='rounded-full'/>
+          </div>
           <p>
-            As you have probably noticed, my name is Daniel Itwaru. I'm a full
+            As you have probably noticed, my name is Daniel Itwaru. I&apos;m a full
             stack web developer that specializes in react and node.js. To prove
             that point, this website was built using Next.js, my all-time
             favorite react framework.
           </p>
           <p className="my-3">
             My career has taken me all over the place; from music, to math, to
-            education, to tech, and landing in development. My professional
+            education, to tech, finally landing in development. My professional
             experience started as a high school math teacher, where I learned a
             lot about critical thinking, classroom management, teamwork,
             collaboration, and well, teenagers. When I made the move into the
             world of technology I fell in love with development.
           </p>
-          <h3 className="text-2xl font-semibold">My development backstory:</h3>
+          <h3 className="text-2xl font-semibold font-montserrat">My development backstory:</h3>
           <p>
             I started programming back in 2019. I learned a few different
             programming languages in my initial studies like HTML, CSS, JS, C,
@@ -49,18 +53,18 @@ export default function Professional() {
             opportunity to sharpen my HTML, CSS, and JS skills significantly. In
             2021 I started working for Elevation Church where my title is
             currently Backend Web Developer and my skills really took flight. At
-            first I started out learning about wordpress and PHP, and other
+            first I started out learning about wordpress, PHP, and other
             miscellaneous wordpress plugins, but as time progressed I learned a
-            lot about some incredibly cutting edge technology like React and
+            lot about some incredibly cutting edge technology like React,
             Next.js, Node.js, ES6 syntax, Typescript, Docker, MongoDB, Mongoose,
-            GraphQL, Auth0, Strapi, Tailwind CSS, and many more.
+            GraphQL, OAuth, Strapi, Tailwind CSS, and many more.
           </p>
           <p className="mt-3">
             Check out my{' '}
             <Link href="/portfolio">
               <a className="text-cyan-600 underline">portfolio</a>
             </Link>{' '}
-            if you'd like to see some of my work!
+            if you&apos;d like to see some of my work!
           </p>
         </section>
       </ContentContainer>

@@ -1,3 +1,7 @@
+export const randomNumberGenerator = () => {
+  return Math.floor(Math.random() * 149)
+}
+
 export const dadJokes = [
   "Imagine if you walked into a bar and there was a long line of people waiting to take a swing at you. That's the punch line.",
   'How does a man on the moon cut his hair? Eclipse it.',

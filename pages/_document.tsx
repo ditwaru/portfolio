@@ -14,9 +14,9 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html className="bg-gradient-to-r from-blue-500">
+      <Html>
         <Head />
-        <body>
+        <body className='font-openSans'>
           <Main />
           <NextScript />
         </body>
