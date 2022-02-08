@@ -5,6 +5,7 @@ import ContentContainer from '../components/ContentContainer'
 
 export default function Portfolio() {
   const { user, error, isLoading } = useUser();
+  // TODO make a tooltip for showing architecture
   return (
     <>
       <Head>

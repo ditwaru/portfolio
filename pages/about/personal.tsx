@@ -80,7 +80,7 @@ export default function Personal() {
             blessed that it actually all came true, just like a dream.
           </p>
           <p>
-            Enough about history, so what about <em>me</em>? I supopse hobbies
+            Enough about history, so what about <em>me</em>? I suppose hobbies
             and pet peeves are how we get to know people so I&apos;ll share some of
             those. Video games are my go to for sure. As of right now, Super
             Smash Bros is my top pick, but overall I just like playing games
@@ -89,10 +89,10 @@ export default function Personal() {
             sure the wifey loves that one the most).
           </p>
           <p className="my-3">
-            What are my pet peeves? I would say my number one is a non-commital
+            What are my pet peeves? I would say my number one is a flakey
             attitude. If you and I commit to a plan, let&apos;s see it through til
             the end! I&apos;m not a fan of dishonesty, and I don&apos;t like when people
-            take advantage of my kindess. Ha! You thought I was going to talk
+            take advantage of my kindness. Ha! You thought I was going to talk
             about road rage or how much I hate bad drivers didn&apos;t you? Driving
             around in NYC has desensitized me to bad driving, so I&apos;m pretty calm
             on the road. Sorry to disappoint... but not really though.

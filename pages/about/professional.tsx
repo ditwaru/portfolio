@@ -61,7 +61,7 @@ export default function Professional() {
             miscellaneous wordpress plugins, but as time progressed I learned a
             lot about some incredibly cutting edge technology like React,
             Next.js, Node.js, ES6 syntax, Typescript, Docker, MongoDB, Mongoose,
-            GraphQL, OAuth, Strapi, Tailwind CSS, and many more.
+            GraphQL, OAuth, Strapi, Tailwind CSS, Express, ...and the list goes on.
           </p>
           <p className="mt-3">
             Check out my{' '}
